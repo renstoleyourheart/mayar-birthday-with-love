@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f1e6d2" />
+  <meta name="description" content="A little birthday memory book made with love for Mayar." />
+  <title>For Mayar, With Love</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Kalam:wght@300;400;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="paper-grain" aria-hidden="true"></div>
+
+  <main>
+    <section class="opening" id="opening" aria-labelledby="opening-title">
+      <div class="opening__ornament opening__ornament--left" aria-hidden="true">✦</div>
+      <div class="opening__ornament opening__ornament--right" aria-hidden="true">✧</div>
+
+      <div class="opening__content">
+        <p class="eyebrow reveal-on-load">A keepsake for a very special person</p>
+        <h1 id="opening-title" class="opening__title reveal-on-load">For Mayar</h1>
+        <p class="opening__subtitle reveal-on-load">A little place made just for you.</p>
+
+        <div class="hero-envelope-wrap reveal-on-load">
+          <div class="hero-envelope" id="heroEnvelope">
+            <div class="hero-envelope__shadow"></div>
+            <div class="hero-envelope__body">
+              <span class="hero-envelope__line hero-envelope__line--one"></span>
+              <span class="hero-envelope__line hero-envelope__line--two"></span>
+              <span class="hero-envelope__stamp">M</span>
+              <div class="hero-envelope__label">
+                <span>To</span>
+                <strong>Mayar</strong>
+                <small>with all my love</small>
+              </div>
+            </div>
+            <div class="hero-envelope__flap"></div>
+            <div class="hero-envelope__seal" aria-hidden="true">♥</div>
+          </div>
+        </div>
+
+        <p class="opening__birthday reveal-on-load">Happy Birthday, Mayar.</p>
+        <button class="button button--primary reveal-on-load" id="openGift" type="button" aria-controls="giftContent" aria-expanded="false">
+          <span>Open your gift</span>
+          <span class="button__arrow" aria-hidden="true">↗</span>
+        </button>
+        <p class="opening__hint reveal-on-load">There is something waiting inside</p>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true">
+        <span>keep going</span>
+        <span class="scroll-cue__line"></span>
+      </div>
+    </section>
+
+    <div class="gift-content" id="giftContent" aria-hidden="true">
+      <section class="story-section story-section--intro" id="friendship" aria-labelledby="friendship-title">
+        <div class="section-shell section-shell--split">
+          <div class="section-copy reveal">
+            <p class="eyebrow">A little history</p>
+            <h2 id="friendship-title">Eight Years <em>of Us</em></h2>
+            <div class="heading-rule" aria-hidden="true"><span>✦</span></div>
+            <p class="lead-copy">Eight years of friendship, countless conversations, and so many little moments. I’m so glad we got to grow up together. Some people make life feel a little warmer, and you’re one of them.</p>
+            <p class="signature">Always grateful for you <span>♡</span></p>
+          </div>
+
+          <div class="memory-card reveal reveal--delay">
+            <div class="memory-card__tape" aria-hidden="true"></div>
+            <div class="memory-card__inner">
+              <span class="memory-card__date">then &nbsp;·&nbsp; now &nbsp;·&nbsp; always</span>
+              <div class="memory-card__sketch" aria-hidden="true">
+                <span class="sketch-star sketch-star--one">✦</span>
+                <span class="sketch-star sketch-star--two">✧</span>
+                <span class="sketch-flower sketch-flower--one">❀</span>
+                <span class="sketch-flower sketch-flower--two">✿</span>
+                <span class="sketch-line sketch-line--one"></span>
+                <span class="sketch-line sketch-line--two"></span>
+              </div>
+              <p class="memory-card__quote">“The best kind of<br />memories are the ones<br />we make without trying.”</p>
+              <span class="memory-card__tiny-heart">♥</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-section story-section--things" id="little-things" aria-labelledby="things-title">
+        <div class="section-shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">The little list</p>
+            <h2 id="things-title">Things We <em>Love</em> About You</h2>
+            <p class="section-heading__note">A few of the many, many things that make you — you.</p>
+          </div>
+
+          <div class="notes-grid">
+            <article class="note-card note-card--rose reveal">
+              <span class="note-card__number">01</span>
+              <span class="note-card__flower" aria-hidden="true">✿</span>
+              <p>Your kindness.</p>
+            </article>
+            <article class="note-card note-card--cream reveal reveal--delay-1">
+              <span class="note-card__number">02</span>
+              <span class="note-card__flower" aria-hidden="true">✦</span>
+              <p>Your beautiful heart.</p>
+            </article>
+            <article class="note-card note-card--coffee reveal reveal--delay-2">
+              <span class="note-card__number">03</span>
+              <span class="note-card__flower" aria-hidden="true">❀</span>
+              <p>The way you always laugh.</p>
+            </article>
+            <article class="note-card note-card--sage reveal reveal--delay-3">
+              <span class="note-card__number">04</span>
+              <span class="note-card__flower" aria-hidden="true">✧</span>
+              <p>Your thoughtful personality.</p>
+            </article>
+            <article class="note-card note-card--blue reveal reveal--delay-4">
+              <span class="note-card__number">05</span>
+              <span class="note-card__flower" aria-hidden="true">♡</span>
+              <p>The way you make people feel comfortable.</p>
+            </article>
+            <article class="note-card note-card--gold reveal reveal--delay-5">
+              <span class="note-card__number">06</span>
+              <span class="note-card__flower" aria-hidden="true">✺</span>
+              <p>The little moments that become our favorite memories.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-section story-section--letters" id="letters" aria-labelledby="letters-title">
+        <div class="section-shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">From the heart</p>
+            <h2 id="letters-title">Letters, <em>Just for You</em></h2>
+            <p class="section-heading__note">Keep these somewhere soft. Come back to them whenever you need a little love.</p>
+          </div>
+
+          <div class="letters-grid">
+            <article class="letter-piece reveal">
+              <div class="letter-piece__envelope letter-piece__envelope--mai" aria-hidden="true">
+                <span class="letter-piece__envelope-flap"></span>
+                <span class="letter-piece__envelope-line letter-piece__envelope-line--one"></span>
+                <span class="letter-piece__envelope-line letter-piece__envelope-line--two"></span>
+                <span class="letter-piece__mini-stamp">M</span>
+              </div>
+              <div class="paper-letter paper-letter--mai">
+                <div class="paper-letter__topline">
+                  <span class="paper-letter__label">a letter from</span>
+                  <h3>Mai</h3>
+                  <span class="paper-letter__date">for Mayar · 2024</span>
+                </div>
+                <div class="wax-seal">M</div>
+                <div class="arabic-letter" lang="ar" dir="rtl">
+                  <p>مييارر كل عام وأنتِ بخيررر!</p>
+                  <p>تقريبًا أقدر أقول صار لنا ثمان سنوات نعرف بعض، وكل ما أفكر فيها أستوعب إنه مر وقت طويل وعلاقتنا للحين ما تغيرت، وأنا جدًا ممتنة إنك لسه جزء من حياتي. حرفيًا أقدر أقول إنك من الأشخاص اللي ما أتخيل حياتي بدونهم.</p>
+                  <p>أحبك وأحب شخصيتك وتوازنك ووعيك وعفويتك، وأحب إني أقدر أكون معك على طبيعتي بدون ما أفكر كثير. يمكن ما أقول لك هالشيء دايم، بس وجودك يعني لي كثير، وأنا فعلًا محظوظة فيك.</p>
+                  <p>أتمنى لك سنة جميلة تشبهك، ويتحقق فيها كل ما تتمنين، وتكون مليانة ضحك وسعادة. ويا رب يجي يوم نتذكر فيه ضحكنا وسوالفنا ومواقفنا ونضحك عليها زي ما نسوي الحين.</p>
+                  <p>أحبببك مرا، وكل عام وأنتِ ميار اللي نعرفها ونحبها، وعقبال سنين كثيرة نحتفل فيها سوااا.</p>
+                </div>
+                <span class="paper-letter__corner paper-letter__corner--one" aria-hidden="true">✦</span>
+                <span class="paper-letter__corner paper-letter__corner--two" aria-hidden="true">❧</span>
+              </div>
+            </article>
+
+            <article class="letter-piece reveal reveal--delay-2">
+              <div class="letter-piece__envelope letter-piece__envelope--shahad" aria-hidden="true">
+                <span class="letter-piece__envelope-flap"></span>
+                <span class="letter-piece__envelope-line letter-piece__envelope-line--one"></span>
+                <span class="letter-piece__envelope-line letter-piece__envelope-line--two"></span>
+                <span class="letter-piece__mini-stamp">S</span>
+              </div>
+              <div class="paper-letter paper-letter--shahad">
+                <div class="paper-letter__topline">
+                  <span class="paper-letter__label">a letter from</span>
+                  <h3>Shahad</h3>
+                  <span class="paper-letter__date">for Mayar · 2024</span>
+                </div>
+                <div class="wax-seal wax-seal--terracotta">S</div>
+                <div class="arabic-letter" lang="ar" dir="rtl">
+                  <p>إلى جميلتي ميار…</p>
+                  <p>في يوم ميلادك، أتمنى لكِ عامًا جديدًا مليئًا بالنجاح، والسعادة، والطمأنينة، وأن يحقق الله لكِ كل أمنياتك، ويكتب لكِ الخير في كل خطوة.</p>
+                  <p>أسأل الله أن يرزقكِ راحة لا تنتهي، وفرحًا يملأ قلبك، وضحكةً لا تغيب، وأن تكون سنتك القادمة أجمل من كل ما مضى.</p>
+                  <p>كل عام وأنتِ بخير، وكل عام وأنتِ تزهرين أكثر، وتحققين أحلامك واحدًا تلو الآخر.</p>
+                </div>
+                <span class="paper-letter__corner paper-letter__corner--one" aria-hidden="true">✦</span>
+                <span class="paper-letter__corner paper-letter__corner--two" aria-hidden="true">❧</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-section story-section--surprise" id="surprise" aria-labelledby="surprise-title">
+        <div class="section-shell section-shell--surprise">
+          <div class="surprise-copy reveal">
+            <p class="eyebrow">A tiny secret</p>
+            <h2 id="surprise-title">One More <em>Thing…</em></h2>
+            <p>There’s one last little note tucked away for you.</p>
+          </div>
+
+          <button class="surprise-envelope reveal reveal--delay" id="surpriseEnvelope" type="button" aria-expanded="false" aria-controls="surpriseMessage">
+            <span class="surprise-envelope__body">
+              <span class="surprise-envelope__flap"></span>
+              <span class="surprise-envelope__line surprise-envelope__line--one"></span>
+              <span class="surprise-envelope__line surprise-envelope__line--two"></span>
+              <span class="surprise-envelope__stamp">♥</span>
+              <span class="surprise-envelope__label">for you</span>
+            </span>
+            <span class="surprise-envelope__seal" aria-hidden="true">♡</span>
+            <span class="surprise-envelope__prompt">click to open</span>
+          </button>
+
+          <div class="surprise-message" id="surpriseMessage" aria-hidden="true">
+            <p>“Thank you for being part of my life. I hope we get many more years, memories, and birthdays together.”</p>
+            <span class="surprise-message__heart" aria-hidden="true">♥</span>
+          </div>
+        </div>
+      </section>
+
+      <footer class="final-page" id="final-page">
+        <div class="final-page__lace" aria-hidden="true"></div>
+        <div class="final-page__content reveal">
+          <p class="eyebrow">Until the next page</p>
+          <h2>Happy Birthday,<br /><em>Mayar.</em></h2>
+          <div class="heading-rule heading-rule--light" aria-hidden="true"><span>✦</span></div>
+          <p class="final-page__message">Here’s to more years of laughter, memories, and friendship.</p>
+          <p class="final-page__signature">With love, Mai &amp; Shahad</p>
+          <span class="final-page__flower" aria-hidden="true">✿</span>
+        </div>
+        <p class="final-page__tiny">made with love · always</p>
+      </footer>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
